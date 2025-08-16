@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+.container{
+  width: 100%;
+  height: 10vh;
+  /* position: absolute; */
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 9.4vh;
+}
+
+.navlinks ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.fa-brands {
+  color: white;
+  font-size: 1rem;
+}
+
+.logo h3 {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.mainnbtns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.buton {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  padding: 7px 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  
+}
+
+.buton:hover {
+  background-color: rgb(255, 78, 39);
+  color: rgb(0, 0, 0);
+}
+
+.maincontentbox{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.maincontent h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.maincontent h1:hover {
+    color: rgb(255, 78, 39);
+}
+
+.maincontent p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+}

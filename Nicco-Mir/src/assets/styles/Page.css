@@ -1,0 +1,99 @@
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    border-bottom: 1px solid black;
+}
+
+#nav img {
+    height: 35px;
+    width: 30%;
+
+}
+
+#nav h5{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+
+#nav i{
+    width: 30%;
+    text-align: right;
+}
+
+#elemnts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 430px;
+    padding: 40px 60px;
+}
+
+#ele1 {
+    width: 30%;
+    height: 100%;
+}
+
+#ele2 {
+    width: 25%;
+    height: 100%;
+    border-left: 1.5px solid black;
+    border-right: 1.5px solid black;
+    padding: 20px 60px;
+    text-align: center;
+}
+
+#ele3 {
+    width: 30%;
+    height: 100%;
+}
+
+#ele1 #img-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#img-div:hover img{
+    transform: scale(1.2);
+    transition: all 0.1s ease-in-out;
+}   
+
+#img-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#img-div2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#img-div2:hover img{
+    transform: scale(1.2);
+    transition: all 0.1s ease-in-out;
+}   
+
+#ele3 #img-div2{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#ele1 h4{
+    font-size: 20px;
+    color: black;
+    margin : 10px 0px;
+}
+
+#ele3 h4{
+    font-size: 20px;
+    color: black;
+    margin : 10px 0px;
+}

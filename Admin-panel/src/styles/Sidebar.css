@@ -1,0 +1,47 @@
+.mainmenu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 94vh;
+    justify-content: start;
+}
+
+.logo{
+    text-align: center;
+    padding: 17px;
+    color: #27374d;
+    align-items: center;
+    display: flex;
+}
+.logo h3{
+    font-size: 20px;
+}
+
+.logo-icons{
+    font-size: 18px;
+}
+
+.navlist{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 10px;
+}
+
+.navlist .items{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    gap: 10px;
+    padding: 10px;
+    padding-left: 17px;
+    border-radius: 5px;
+    color: #27374d;
+    transition: 0.3s ease-in-out;
+}
+
+.navlist .items:hover{
+    background-color: #456882;
+    color: #D2C1B6;
+}

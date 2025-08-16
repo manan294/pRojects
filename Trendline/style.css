@@ -1,0 +1,146 @@
+@font-face {
+  font-family: tiktok;
+  src: url(./TikTokSans-VariableFont_opsz\slnt\wdth\wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#nav {
+  height: 11.11vh; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5vh 1.52vw; 
+}
+
+#nav #logo img {
+  height: 8.33vh; 
+}
+
+#links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2.77vw; 
+}
+
+#links h4 span {
+  color: rgba(128, 128, 128, 0.685);
+}
+
+#links a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+#links h4 {
+  font-size: 1.04vw; 
+  font-weight: 50;
+}
+
+#links #search input {
+  padding: 0.83vh; 
+  width: 40%;
+  border-radius: 2.77vw; 
+  border: none;
+}
+
+#search {
+  display: flex;
+  gap: 0.35vw; 
+}
+
+#search i {
+  margin: 0 0.35vw; 
+}
+
+#search input {
+  margin-right: 0;
+}
+
+#nav2 {
+  display: flex;
+  align-items: center;
+  gap: 3.88vw;
+  padding: 2.5vh 2.36vw; 
+  height: 9.72vh; 
+}
+
+#nav2 h3 {
+  font-weight: 50;
+  font-size: 0.9vw;
+  text-transform: uppercase;
+}
+
+#content {
+  height: calc(100% - 20.83vh); 
+  width: 100%;
+}
+
+#textcontent {
+  height: 35%;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+}
+
+#textcontent::-webkit-scrollbar {
+  background-color: transparent;
+  height: 0.55vh; 
+}
+
+#textcontent::-webkit-scrollbar-thumb {
+  background-color: orangered;
+}
+
+.elem {
+  height: 100%;
+  width: 70%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elem h1 {
+  font-size: 5.5vw;
+  font-weight: 100;
+}
+
+#imgcon {
+  height: 90%;
+  width: 100%;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  overflow-x: auto;
+}
+
+#imgcon::-webkit-scrollbar {
+  display: none;
+}
+
+#imgcon img {
+  width: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+   object-position: 0% 39%;
+}
+

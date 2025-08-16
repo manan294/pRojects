@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#banner{
+    min-width: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 0px 1vw;
+    padding-top: 35vh;
+}
+
+#banner h1{
+    font-size: 15.2vw;
+    text-transform: uppercase;
+    font-family: futura;
+    line-height: 13vw;
+    letter-spacing: -1px;
+}
+
+#img{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    margin-top: 1vw;
+}
+
+#img img{
+    object-fit: cover;
+    width: 100%;
+}
+
+#play{
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+font-family: HelveticalNowText;
+font-size: 1.3vw;
+}
+

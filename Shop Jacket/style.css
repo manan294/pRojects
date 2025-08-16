@@ -1,0 +1,160 @@
+@font-face{
+    font-family: "bebas";
+    src: url(./BebasNeue-Regular.ttf);
+}
+
+@font-face{
+    font-family: "roboto";
+    src: url(./Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto";
+    
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightblue; */
+}
+
+#header{
+    padding: 26px 20px;
+}
+
+#nav-links{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+#nav-links h4{
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+
+#jumbo{
+    padding: 20px 80px;
+}
+
+#jumbo h1{
+    font-size: 4.3vw;
+    font-weight: 350;
+    text-transform: capitalize;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+margin-top: 20px;
+}
+
+#about #para p{
+    font-size: 1.3vw;
+    width: 30vw;
+}
+
+#about #add{
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+}
+
+#about #add h3{
+    font-size: 1.4vw;
+    font-weight: 280;
+    width: 15vw;
+    border-top: 2px solid black;
+    padding: 15px 20px;
+}
+
+
+.addcart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addcart i{
+    display: block;
+font-size: 1.6vw;
+}
+
+#img{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#img{
+    
+background-image: url(https://images.pexels.com/photos/5039659/pexels-photo-5039659.jpeg);
+background-position: 0 27%;
+background-size: cover;
+}
+
+
+/* Responsive Adjustments WITHOUT breaking inline layout */
+@media (max-width: 768px) {
+    #nav-links h4,
+    #jumbo h1,
+    #about #para p,
+    #about #add h3,
+    .addcart i {
+        font-size: 2.8vw;
+    }
+
+    #jumbo,
+    #about {
+        padding: 20px 40px;
+    }
+
+    #about #para p {
+        width: 45vw;
+    }
+
+    #about #add {
+        padding-right: 40px;
+    }
+
+    #about #add h3 {
+        width: 20vw;
+    }
+}
+
+@media (max-width: 480px) {
+    #nav-links h4 {
+        font-size: 3.8vw;
+    }
+
+    #jumbo h1 {
+        font-size: 5.5vw;
+    }
+
+    .addcart i {
+        font-size: 4vw;
+    }
+
+    #about #para p {
+        font-size: 3.5vw;
+        width: 50vw;
+    }
+
+    #about #add h3 {
+        font-size: 3.8vw;
+        width: 25vw;
+    }
+}

@@ -1,0 +1,118 @@
+body{
+    margin: 0%;
+    font-family: poppins, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.regcontainer {
+    margin: 0%;
+    width: 210.5vh;
+  
+    font-family: poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://images.pexels.com/photos/847402/pexels-photo-847402.jpeg?_gl=1*1r3rhwy*_ga*ODA5OTIzODg5LjE3NDMxNzUwNjI.*_ga_8JE65Q40S6*czE3NTE3ODM3ODQkbzgkZzEkdDE3NTE3ODM4NTMkajU5JGwwJGgw")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .wrapper {
+    width: 420px;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(183, 178, 178, 0.2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .wrapper h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
+  }
+  
+  .input-box input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(183, 178, 178);
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+  }
+  
+  .input-box input::placeholder {
+    color: white;
+  }
+  
+  .input-box .icons {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    /* bottom: 50%; */
+    transform: translateY(-50%);
+    font-size: 16px;
+  }
+  
+  
+  
+  .wraper button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: rgb(183, 178, 178);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  
+  .register {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14.7px;
+  }
+  
+  .register p a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .register p a:hover {
+    text-decoration: underline;
+  }
+  
+  .signbtn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+
+  .signbtn .sibtn{
+    position: absolute;
+    right: 97px;
+    font-size: 16px;
+
+  }
